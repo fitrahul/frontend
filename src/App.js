@@ -26,22 +26,6 @@ function App() {
 
       {/* Todo with Redux */}
       <TodoRedux />
-      <div>
-      <label>
-        <input
-          type="checkbox"
-          checked={isChecked}
-          onChange={handleChange}
-        />
-        <input
-          type="checkbox"
-          checked={isChecked}
-          onChange={handleChange}
-        />
-        Checkbox Label
-      </label>
-      <div>Checked: {isChecked.toString()}</div>
-    </div>
     </div>
   );
 }
